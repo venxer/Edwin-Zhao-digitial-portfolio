@@ -10,24 +10,24 @@ body
 {
     display: grid;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 1.25rem;
     grid-template-columns: 1fr 1fr;
 }
 .header-container
 {
     display: flex;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 1.875rem;
 }
 .profileImage
 {
-    margin-right: 16px;
+    margin-right: 1rem;
 }
 .header-profile-pic
 {
     width: auto;
-    height: 45px;
-    border-radius: 35px;
+    height: 2.8125rem;
+    border-radius: 2.1875rem;
 }
 .header-name-text
 {
@@ -35,25 +35,25 @@ body
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 .contacts-container
 {
     display: flex;
     align-items: center;
     margin-left: auto;
-    margin-right: 30px;
+    margin-right: 1.875rem;
 }
 .github-image
 {
-    margin-right: 16px;
+    margin-right: 1rem;
 }
 .contact-box
 {
     background: #A36584;
     box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
-    padding: 7px 37.5px;
+    padding: 0.4375rem 2.5rem;
 }
 .contact-button
 {
@@ -61,7 +61,7 @@ body
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.25rem;
     user-select: none;
     vertical-align: middle;
     text-align: center;
@@ -75,10 +75,10 @@ a
 {
     display: grid;
     width: 35%;
-    margin-left: 89px;
-    margin-top: 100px;
+    margin-left: 5.5625rem;
+    margin-top: 6.5rem;
     position: absolute;
-    top: 10%
+    top: 10%;
     
 }
 .intro
@@ -87,7 +87,7 @@ a
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 2.1875rem;
 }
 .intro-name
 {
@@ -95,25 +95,35 @@ a
     font-family: "DM Sans";
     font-style: normal;
     font-weight: 700;
-    font-size: 96px;
-    margin: -10px -2px;
+    font-size: 6rem;
+    margin:-0.625rem -0.125rem;
 }
 .description-bio
 {
     color: #ebebeb;
     font-family: "DM Sans";
     font-style: normal;
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
     word-wrap: break-word;
+}
+section
+{
+    display: grid;
+    place-items: center;
+    align-content: center;
 }
 .experiences
 {
-    display: grid;
-    grid-template-columns: repeat(6, 150px);
-    /* grid-template-rows: auto; */
-    column-gap: 5%;
-    justify-content: center;
+    display: flex;
+    column-gap: 2rem;
+    margin-top: 30%;
+}
+.language-img
+{
+    object-fit: contain;
+    padding: 10px 0px;
+    margin-right: 10px;
 }
 .language
 {
@@ -124,14 +134,46 @@ a
     font-size: 20px;
     background: #152B42;
     box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
+    border-radius: 2.1875rem;
     display: flex;
     align-items: center;
-    padding: 0px 100px
+    width: 200px;
+    justify-content: center;
 }
-.language-img
+.language:nth-child(2)
 {
-    object-fit: contain;
-    padding: 10px 0px;
-    margin-right: 10px;
+    transition-delay: 100ms;
+
+}
+.language:nth-child(3)
+{
+    transition-delay: 200ms;
+}
+.language:nth-child(4)
+{
+    transition-delay: 300ms;
+}
+.language:nth-child(5)
+{
+    transition-delay: 400ms;
+}
+.language:nth-child(6)
+{
+    transition-delay: 500ms;
+}
+.hidden
+{
+    opacity: 0;
+    transition: all 1.5s;
+}
+@media(prefers-reduced-motion)
+{
+    .hidden
+    {
+        opacity: 0;
+    }
+}
+.show
+{
+    opacity: 1;
 }
