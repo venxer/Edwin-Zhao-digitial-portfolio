@@ -14,4 +14,4 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 const languageDivs = document.querySelectorAll(".language");
-lang.forEach((el) => observer.observe(el));
+languageDivs.forEach((el) => observer.observe(el));
