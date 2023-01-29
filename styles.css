@@ -116,12 +116,12 @@ section
 }
 .experiences-header
 {
-    margin-right: 75rem;
     color: white;
     font-family: "DM Sans";
     font-weight: 500;
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
+    margin-right: 89.5rem;
 }
 .languages
 {
@@ -152,23 +152,26 @@ section
 .language:nth-child(2)
 {
     transition-delay: 100ms;
-
 }
 .language:nth-child(3)
 {
-    transition-delay: 200ms;
+    transition-delay: 150ms;
 }
 .language:nth-child(4)
 {
-    transition-delay: 300ms;
+    transition-delay: 200ms;
 }
 .language:nth-child(5)
 {
-    transition-delay: 400ms;
+    transition-delay: 250ms;
 }
 .language:nth-child(6)
 {
-    transition-delay: 500ms;
+    transition-delay: 300ms;
+}
+.language:nth-child(7)
+{
+    transition-delay: 350ms;
 }
 .hidden
 {
