@@ -189,3 +189,8 @@ section
 {
     opacity: 1;
 }
+.language:hover
+{
+    transform: translate(0, -15px);;
+    transition: 0.4s;
+}
