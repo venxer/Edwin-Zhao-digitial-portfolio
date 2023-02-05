@@ -6,6 +6,10 @@ body
     background-attachment: fixed;
     /* overflow: hidden; */
 }
+.header-section
+{
+
+}
 .header
 {
     display: grid;
@@ -71,6 +75,10 @@ a
 {
     text-decoration: none;
 }
+.intro-section
+{
+
+}
 .introduction-container
 {
     display: grid;
@@ -107,12 +115,12 @@ a
     margin-top: 1.25rem;
     word-wrap: break-word;
 }
-section
+.language-section
 {
     display: grid;
     place-items: center;
     align-content: center;
-    margin-top: 30%;
+    margin-top: 38rem;
 }
 .experiences-header
 {
@@ -121,12 +129,23 @@ section
     font-weight: 500;
     font-size: 1.75rem;
     margin-bottom: 0.5rem;
-    margin-right: 89.5rem;
+    text-align: center;
 }
-.languages
-{
-    display: flex;
-    column-gap: 2rem;
+@media (min-width: 1600px) {
+    .languages
+    {
+        display: flex;
+        column-gap: 2rem;
+    }
+    .experiences-header
+    {
+        color: white;
+        font-family: "DM Sans";
+        font-weight: 500;
+        font-size: 1.75rem;
+        margin-bottom: 0.5rem;
+        margin-right: 89.5rem;
+    }
 }
 .language-img
 {
@@ -148,6 +167,7 @@ section
     align-items: center;
     width: 200px;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 .language:nth-child(2)
 {
