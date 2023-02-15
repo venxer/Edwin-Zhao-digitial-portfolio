@@ -2,10 +2,18 @@
 
 body
 {
+    margin: 0;
+    /* overflow-y: hidden;  */
+    overflow-x: hidden; 
+}
+.intro-section-container
+{
+
     background: linear-gradient(180deg, #011826 0%, #D97E96 150.91%);
     background-attachment: fixed;
-    /* overflow: hidden; */
+    height: 180vh;
 }
+
 .header-section
 {
 
@@ -14,7 +22,6 @@ body
 {
     display: grid;
     align-items: center;
-    margin-top: 1.25rem;
     grid-template-columns: 1fr 1fr;
 }
 .header-container
@@ -146,6 +153,10 @@ a
         margin-bottom: 0.5rem;
         margin-right: 89.5rem;
     }
+    .intro-section-container
+    {
+        height: 100vh;
+    }
 }
 .language-img
 {
@@ -226,4 +237,8 @@ a
     font-style: normal;
     font-weight: 550;
     font-size: 12px;
+}
+.gallery
+{
+    background-color: aqua;
 }
