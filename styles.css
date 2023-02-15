@@ -3,15 +3,15 @@
 body
 {
     margin: 0;
-    /* overflow-y: hidden;  */
+    overflow-y: hidden; 
     overflow-x: hidden; 
 }
 .intro-section-container
 {
-
+    height: 200vh;
+    position: relative;
     background: linear-gradient(180deg, #011826 0%, #D97E96 150.91%);
     background-attachment: fixed;
-    height: 180vh;
 }
 
 .header-section
@@ -23,6 +23,7 @@ body
     display: grid;
     align-items: center;
     grid-template-columns: 1fr 1fr;
+    padding-top : 1rem;
 }
 .header-container
 {
@@ -127,7 +128,7 @@ a
     display: grid;
     place-items: center;
     align-content: center;
-    margin-top: 38rem;
+    padding-top: 37rem;
 }
 .experiences-header
 {
@@ -135,7 +136,7 @@ a
     font-family: "DM Sans";
     font-weight: 500;
     font-size: 1.75rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
     text-align: center;
 }
 @media (min-width: 1600px) {
@@ -150,7 +151,7 @@ a
         font-family: "DM Sans";
         font-weight: 500;
         font-size: 1.75rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
         margin-right: 89.5rem;
     }
     .intro-section-container
@@ -225,10 +226,6 @@ a
     transform: translate(0, -15px);;
     transition: 0.4s;
 }
-.status
-{
-    margin-top: 70px;
-}
 .statusMessage
 {
     text-align: center;
@@ -237,8 +234,11 @@ a
     font-style: normal;
     font-weight: 550;
     font-size: 12px;
+    padding-bottom: 10px;
 }
 .gallery
 {
-    background-color: aqua;
+    height: 100vh;
+    position: relative;
+    background-color: black;
 }
