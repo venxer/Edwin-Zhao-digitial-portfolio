@@ -6,14 +6,17 @@ body
     overflow-y: hidden; 
     overflow-x: hidden; 
 }
+.font
+{
+    color: white;
+    font-family: "DM Sans";
+}
 .intro-section-container
 {
-    height: 200vh;
-    position: relative;
+    /* height: 200vh; */
     background: linear-gradient(180deg, #011826 0%, #D97E96 150.91%);
     background-attachment: fixed;
 }
-
 .header-section
 {
 
@@ -156,7 +159,7 @@ a
     }
     .intro-section-container
     {
-        height: 100vh;
+        /* height: 100vh; */
     }
 }
 .language-img
@@ -241,4 +244,10 @@ a
     height: 100vh;
     position: relative;
     background-color: black;
+}
+.project-label
+{
+    font-size: 30px;
+    text-align: center;
+
 }
