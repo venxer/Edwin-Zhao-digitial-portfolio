@@ -251,9 +251,12 @@ a
     background-color: #4A6D8F;
     font-size: 30px;
     text-align: center;
-    border-radius: 15px;
-    padding: 0.4375rem 2.5rem;
+    border-radius: 17px;
+    padding: 0.4375rem 3rem;
     margin-top: 40px;
+    font-size: 30px;
+    font-weight: 550;
+    letter-spacing: 1px;
 }
 .project-table-container
 {
@@ -263,6 +266,7 @@ a
     row-gap: 50px;
     margin-left: 5.5625rem;
     margin-right: 5.5625rem;
+    margin-top: 30px;
 }
 .project-description
 {
@@ -283,5 +287,11 @@ a
 }
 .project-title
 {
-    font-size: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+.project-blurb
+{
+    font-size: 17px;
 }
