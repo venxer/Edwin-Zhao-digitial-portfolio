@@ -234,7 +234,6 @@ a
 }
 .gallery
 {
-    /* height: 100vh; */
     position: relative;
     background: linear-gradient(180deg, #011826 10%, #D97E96 360%);
     background-attachment: fixed;
@@ -323,5 +322,14 @@ a
         margin-right: auto;
         margin-top: -20px;
     }
-
+    .project-table-container
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 50px;
+        margin-left: 3.5625rem;
+        margin-right: 3.5625rem;
+        margin-top: 30px;
+    }
 }
