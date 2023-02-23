@@ -13,9 +13,9 @@ body
 }
 .intro-section-container
 {
-    /* height: 200vh; */
     background: linear-gradient(180deg, #011826 0%, #D97E96 150.91%);
     background-attachment: fixed;
+    /* min-height: 2000px; */
 }
 .header-section
 {
@@ -241,7 +241,7 @@ a
 }
 .gallery
 {
-    height: 100vh;
+    /* height: 100vh; */
     position: relative;
     background: linear-gradient(180deg, #011826 10%, #D97E96 360%);
     background-attachment: fixed;
@@ -255,7 +255,9 @@ a
 .project-table-container
 {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 50px;
     margin-left: 5.5625rem;
     margin-right: 5.5625rem;
 }
@@ -271,7 +273,7 @@ a
 .project-picture
 {
     display: block;
-    width: 50%;
+    width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
