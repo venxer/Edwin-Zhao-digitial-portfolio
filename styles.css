@@ -213,13 +213,6 @@ a
     opacity: 0;
     transition: all 1.5s;
 }
-@media(prefers-reduced-motion)
-{
-    .hidden
-    {
-        opacity: 0;
-    }
-}
 .show
 {
     opacity: 1;
