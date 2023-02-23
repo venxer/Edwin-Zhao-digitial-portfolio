@@ -234,6 +234,7 @@ a
 }
 .gallery
 {
+    /* height: 100vh; */
     position: relative;
     background: linear-gradient(180deg, #011826 10%, #D97E96 360%);
     background-attachment: fixed;
@@ -288,7 +289,7 @@ a
 .small-pic
 {
     display: block;
-    width: 70%;
+    width: 80%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -309,8 +310,8 @@ a
         display: grid;
         grid-template-columns: 1fr;
         row-gap: 30px;
-        margin-left: 5.5625rem;
-        margin-right: 5.5625rem;
+        margin-left: 2.5625rem;
+        margin-right: 2.5625rem;
         margin-top: 30px;
     }
     .project-picture
@@ -321,15 +322,5 @@ a
         margin-left: auto;
         margin-right: auto;
         margin-top: -20px;
-    }
-    .project-table-container
-    {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        column-gap: 20px;
-        row-gap: 50px;
-        margin-left: 3.5625rem;
-        margin-right: 3.5625rem;
-        margin-top: 30px;
     }
 }
