@@ -267,6 +267,7 @@ a
     margin-left: 5.5625rem;
     margin-right: 5.5625rem;
     margin-top: 30px;
+    padding-bottom: 30px;
 }
 .project-description
 {
@@ -312,7 +313,6 @@ a
         row-gap: 30px;
         margin-left: 2.5625rem;
         margin-right: 2.5625rem;
-        margin-top: 30px;
     }
     .project-picture
     {
