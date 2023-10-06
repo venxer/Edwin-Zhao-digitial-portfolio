@@ -3,7 +3,6 @@
 body
 {
     margin: 0;
-    /* overflow-y: hidden;  */
     overflow-x: hidden; 
 }
 .font
@@ -15,7 +14,6 @@ body
 {
     background: linear-gradient(180deg, #011826 0%, #D97E96 150.91%);
     background-attachment: fixed;
-    /* min-height: 2000px; */
 }
 .header-section
 {
@@ -132,6 +130,7 @@ a
     place-items: center;
     align-content: center;
     padding-top: 37rem;
+    box-sizing: border-box;
 }
 .experiences-header
 {
@@ -142,24 +141,30 @@ a
     margin-bottom: 1.5rem;
     text-align: center;
 }
-@media (min-width: 1600px) {
+@media (min-width: 1100px) {
     .languages
     {
-        display: flex;
         column-gap: 2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
-    .experiences-header
+    .language
     {
         color: white;
         font-family: "DM Sans";
-        font-weight: 500;
-        font-size: 1.75rem;
-        margin-bottom: 1.5rem;
-        margin-right: 89.5rem;
-    }
-    .intro-section-container
-    {
-        /* height: 100vh; */
+        font-style: normal;
+        font-weight: 550;
+        font-size: 20px;
+        background: #152B42;
+        box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 2.1875rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+        width: calc(100% / 5);
+        box-sizing: border-box;
     }
 }
 .language-img
@@ -168,21 +173,23 @@ a
     padding: 10px 0px;
     margin-right: 10px;
 }
-.language
-{
-    color: white;
-    font-family: "DM Sans";
-    font-style: normal;
-    font-weight: 550;
-    font-size: 20px;
-    background: #152B42;
-    box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 2.1875rem;
-    display: flex;
-    align-items: center;
-    width: 200px;
-    justify-content: center;
-    margin-bottom: 2rem;
+@media (max-width: 1100px) {
+    .language {
+        color: white;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 550;
+        font-size: 20px;
+        background: #152B42;
+        box-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 2.1875rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+        width: 200px;
+        box-sizing: border-box;
+    }
 }
 .language:nth-child(2)
 {
@@ -207,6 +214,10 @@ a
 .language:nth-child(7)
 {
     transition-delay: 350ms;
+}
+.language:nth-child(8)
+{
+    transition-delay: 400ms;
 }
 .hidden
 {
@@ -234,7 +245,6 @@ a
 }
 .gallery
 {
-    /* height: 100vh; */
     position: relative;
     background: linear-gradient(180deg, #011826 10%, #D97E96 360%);
     background-attachment: fixed;
